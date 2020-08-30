@@ -42,15 +42,15 @@ body {
 .radsign-top {
   height: 100px;
   position: relative;
-  top: 225px;
-  right:28%;
+  top: 150px;
+  right: 20%;
 }
 
 .radsign-bottom {
   height: 100px;
   position: relative;
-  top: 350px;
-  left: 23%;
+  top: 150px;
+  left: 20%;
 }
 
 .boom {
@@ -68,6 +68,7 @@ body {
 
 .bottom-container {
   background-color: #fbe2e5;
+  padding: 20px 0;
 }
 
 .skill-row {
@@ -75,25 +76,73 @@ body {
   margin: 75px auto 75px auto;
   text-align: left;
 }
+
 .theend {
   margin-bottom: 0;
 }
+
 hr.style-eight {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-    width: 20%;
+  overflow: visible;
+  /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  width: 40%;
 }
+
 hr.style-eight:after {
-    content: "☢";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: #fbe2e5;
-    width: 20%;
+  content: "☢";
+  display: inline-block;
+  position: relative;
+  top: -28px;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #fbe2e5;
+  width: 10%;
+}
+
+.footer-link {
+  padding: 0 50px 0 50px;
+}
+
+.btn {
+  background: #9CADA4;
+  background-image: -webkit-linear-gradient(top, #9CADA4, #767C77);
+  background-image: -moz-linear-gradient(top, #9CADA4, #767C77);
+  background-image: -ms-linear-gradient(top, #9CADA4, #767C77);
+  background-image: -o-linear-gradient(top, #9CADA4, #767C77);
+  background-image: linear-gradient(to bottom, #9CADA4, #767C77);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: Oswald;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  box-shadow: 1px 1px 20px 0 #000000;
+  -webkit-box-shadow: 1px 1px 20px  #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 10px #000000;
+  border: solid #000000 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #000000 1px;
+  background: #767C77;
+  background-image: -webkit-linear-gradient(top, #767C77, #9CADA4);
+  background-image: -moz-linear-gradient(top, #767C77, #9CADA4);
+  background-image: -ms-linear-gradient(top, #767C77, #9CADA4);
+  background-image: -o-linear-gradient(top, #767C77, #9CADA4);
+  background-image: linear-gradient(to bottom, #767C77, #9CADA4);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
 }
